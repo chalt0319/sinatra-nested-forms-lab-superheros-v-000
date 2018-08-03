@@ -6,5 +6,9 @@
   </head>
   <body>
     <h1><%=@team.name%></h1>
+    <h2><%=@team.motto%></h2>
+    <% @heros.each do |hero|
+    <h3><%=hero.name%></h3>
+    <% end %>
   </body>
 </html>
