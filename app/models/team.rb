@@ -1,4 +1,4 @@
-class Team < ActiveRecord::Base
+class Team 
   attr_accessor :name, :power, :bio
 
   @@all = []
