@@ -1,4 +1,4 @@
-class Hero 
+class Hero
   attr_accessor :name, :motto
 
   @@all = []
@@ -9,7 +9,7 @@ class Hero
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all
   end 
 end

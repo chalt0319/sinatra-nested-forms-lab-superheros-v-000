@@ -1,4 +1,4 @@
-class Team 
+class Team
   attr_accessor :name, :power, :bio
 
   @@all = []
@@ -9,4 +9,8 @@ class Team
     @bio = params[:bio]
     @@all << self
   end
+
+  def self.all
+    @@all
+  end 
 end
