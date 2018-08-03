@@ -6,6 +6,6 @@ class Hero < ActiveRecord::Base
   def initialize(params)
     @name = params[:name]
     @motto = params[:motto]
-    @@all << self 
+    @@all << self
   end
 end
