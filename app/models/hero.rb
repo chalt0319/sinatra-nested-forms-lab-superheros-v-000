@@ -1,4 +1,4 @@
-class Hero < ActiveRecord::Base
+class Hero 
   attr_accessor :name, :motto
 
   @@all = []
